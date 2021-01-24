@@ -23,6 +23,6 @@ Members:
 8. Push changes to your local repository.
 9. Create a pull request.
 
-#### I know it might overwhlem you, I was there too before. If then, we can just do our work indivisually for now and send your work to someone to finish it. But you will follow this work flow, once you become a web dev :)
+#### I know it might overwhlem you, I was there too before. If then, we can just do our work indivisually for now and send your work to someone to finish it. And I will add the changes to GitHub. But you will follow this work flow, once you become a web dev :)
 
         
