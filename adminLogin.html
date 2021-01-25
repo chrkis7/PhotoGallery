@@ -9,10 +9,30 @@
 
 <body>
     <nav>home w/page link</nav>
-    <h1>Some heading/title here</h1>
-    <form>username/ password/ enter or submit button. Also if user/admin forgets password, we need to account for this
+    <div>
+        <h1>ADMIN</h1>
+    </div>
+    <form name="loginForm" action="" method="POST">
+        <!--username/ password/ enter or submit button. Also if user/admin forgets password, we need to account for this
         and create a link to launch a new page requesting an email address which will send the user a confirmation to
-        reset
+        reset -->
+ 
+        <div>
+            <label for="username">USERNAME:</label>
+            <input type="text" id="username" name="username" required>
+        </div>
+        
+        <div>
+            <label for="password">PASSWORD:</label>
+            <input type="password" id="password" name="password" minlength="8" required>
+            <span>(length minimum 8 characters)</span>
+        </div>
+        <div> 
+        <input type="submit" value="Sign in">
+        </div>
+        <div>
+            <span class="psw"><a href="#"></a>Forgot password?</a></span>
+        </div>
     </form>
 
 
