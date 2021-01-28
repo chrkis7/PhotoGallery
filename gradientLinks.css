@@ -1,0 +1,35 @@
+
+
+/*this is styling for the links that will change up the copy and photos found on the gallery page*/
+
+body {
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: rgb(55, 29, 90);
+    text-transform: uppercase;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    color:Purple;
+    background: linear-gradient(270deg, rgba(255, 255, 255, 0), rgba(255,255,255, 1));
+    height: .125em;
+    width: 30em;
+    padding: 1em 1em 1em 1em;
+}
+
+a:link {
+    color: rgb(55, 29, 90);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(179, 59, 148);
+}
+
+a:active {
+    color: rgb(179, 59, 148);
+}
+
+/*this is styling for the links that will change up the copy and photos found on the gallery page*/
